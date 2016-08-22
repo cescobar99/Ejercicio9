@@ -78,6 +78,7 @@ public class Ejercicio9 extends javax.swing.JFrame {
         });
         jPanel1.add(txtMontoFinal, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 90, 180, -1));
 
+        txtCosto.setEditable(false);
         txtCosto.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCostoKeyTyped(evt);
